@@ -83,6 +83,7 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+    margin:1% auto 1% auto;
 }
 
 .middle-content {
@@ -150,9 +151,10 @@ footer nav a {
 
 /* NEW STYLING GOES HERE */
 
-div{
+/* div{
     border: 1px solid black;
 }
+*/
 
 .container{
     display:flex;
@@ -299,6 +301,7 @@ header{
     justify-content: center;
     background-color: indigo;
 }
+
 .middle-content .boxes .box10 {
     width: 12.5%;
     height: 100px;
@@ -309,4 +312,40 @@ header{
     align-items: center;
     justify-content: center;
     background-color: dodgerblue;
+}
+
+/* About Page Styling Begins Here */
+
+/* .container2{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: evenly;
+}
+*/ 
+
+.about-container{
+    display:flex;
+    justify-content: center;
+}
+.about, .lets-work-together{
+    width:97%;
+    margin:1.5% auto 3% auto;
+}
+
+.strategy, .how-we-work, .places-we-work, .collaboration{
+    width:47%;
+    margin:1.5%;
+}
+
+.strategy-img, .how-we-work-img, .places-we-work-img, .collaboration-img{
+    max-width:100%;
+    margin-bottom: 3%;
+}
+
+button{
+    color:black;
+    background-color: white;
+    border:1px round black;
+    margin:1% auto 2% 0;
 }
